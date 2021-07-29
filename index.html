@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- css link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-----------------
+         font style  
+        -------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Honda Bike Gallary</title>
+    <!-----------------
+         font awesome 
+        ------------------>
+    <script src="https://kit.fontawesome.com/2174feca3b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <section>
+            <div class="container-fluid row gx-5 header-section">
+                <div class="header-text col-lg-6 col-12 d-flex align-items-center">
+                    <div class="header-bike-info">
+                        <p class="first-text">Computer-controlled digital transistorized with electronic advance</p>
+                        <h1 class="second-text">Honda CBR 300R</h1>
+                        <p class="third-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint.
+                            Velit officia
+                            consequat
+                            duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn px-5 py-2 text-white purchase-btn" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">
+                            Purchase
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-danger" id="staticBackdropLabel">Purchase Info</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body text-info">Honda CBR 300R <br>
+                                        348.36 cc | 46 kmpl | 181 Kg | 21.07 bhp
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success">Added to cart</button>
+                                        <button type="button" class="btn btn-info">See More</button>
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <img class="img-fluid pt-5" src="images/header-bike.png" alt="">
+                </div>
+
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- Fetured section -->
+        <section>
+            <div class="container my-5">
+                <div class="fetured-bike-text">
+                    <h1 class="fetured-text-first">Fetured Bikes 2021</h1>
+                    <small class="fetured-text-second">Best bike collection</small>
+                </div>
+                <div class="fetured-bike">
+                    <div class="row gx-5 my-5 py-5 first-img">
+                        <div class="col-lg-4 p-5">
+                            <img class="img-fluid filter-img" src="images/feature-bike.jpg" alt="">
+                        </div>
+                        <div class="col-lg-4 p-5">
+                            <img class="img-fluid" src="images/feature-bike.jpg" alt="">
+                        </div>
+                        <div class="col-lg-4 p-5">
+                            <img class="img-fluid filter-img" src="images/feature-bike.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- latest News section  -->
+        <section>
+            <div class="container my-5">
+                <h1 class="latest-text">Latest News</h1>
+                <div class="row row-cols-1 row-cols-lg-3 g-4 py-5">
+                    <div class="col">
+                        <div class="card p-3 h-100 rounded">
+                            <img src="images/bike-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Ducati XDIAVEL S-73</h5>
+                                <small class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                    fermentum amet faucibus sed id nisi lectus at</small>
+                            </div>
+                            <footer>
+                                <button type="button" class="btn btn-outline-danger">Read More</button>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-3 h-100 rounded">
+                            <img src="images/bike-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Motorcycles & Scooters</h5>
+                                <small class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                    fermentum amet faucibus sed id nisi lectus at</small>
+                            </div>
+                            <footer>
+                                <button type="button" class="btn btn-outline-danger">Read More</button>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-3 h-100 rounded">
+                            <img src="images/bike-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">2021 Honda CBR500R</h5>
+                                <small class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                    fermentum amet faucibus sed id nisi lectus at</small>
+                            </div>
+                            <footer>
+                                <button type="button" class="btn btn-outline-danger">Read More</button>
+                            </footer>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Our more products -->
+        <section>
+            <div class="container my-5">
+                <h1 class="more-products-text">Our More Products</h1>
+                <div class="row row-cols-1 row-cols-lg-3 g-4 py-5">
+                    <div class="col">
+                        <div class="card p-3 h-100 rounded">
+                            <img src="images/bikes/1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Honda Hness CB350</h5>
+                                <small class="card-text">Ex-Showroom Price, Delhi <br>
+                                    348.36 cc | 46 kmpl | 181 Kg | 21.07 bhp</small>
+                            </div>
+                            <footer class="d-flex justify-content-between">
+                                <h4>$4500</h4>
+                                <button type="button" class="btn btn-outline-danger"><i class="fas fa-cart-plus"></i>
+                                    Buy Now</button>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-3 h-100 rounded">
+                            <img src="images/bikes/2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Honda Hornet 2.0</h5>
+                                <small class="card-text">
+                                    Ex-Showroom Price, Delhi <br>
+                                    184.4 cc | 57 kmpl | 142 Kg | 17.26 bhp</small>
+                            </div>
+                            <footer class="d-flex justify-content-between">
+                                <h4>$4300</h4>
+                                <button type="button" class="btn btn-outline-danger"><i class="fas fa-cart-plus"></i>
+                                    Buy Now</button>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-3 h-100 rounded">
+                            <img src="images/bikes/3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Honda XBlade</h5>
+                                <small class="card-text"> Ex-Showroom Price, Delhi <br>
+                                    184.4 cc | 57 kmpl | 142 Kg | 17.26 bhp</small>
+                            </div>
+                            <footer class="d-flex justify-content-between">
+                                <h4>$3800</h4>
+                                <button type="button" class="btn btn-outline-danger"><i class="fas fa-cart-plus"></i>
+                                    Buy Now</button>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-3 h-100 rounded">
+                            <img src="images/bikes/4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Repsol V3</h5>
+                                <small class="card-text"> Ex-Showroom Price, Delhi <br>
+                                    184.4 cc | 57 kmpl | 142 Kg | 17.26 bhp</small>
+                            </div>
+                            <footer class="d-flex justify-content-between">
+                                <h4>$5100</h4>
+                                <button type="button" class="btn btn-outline-danger"><i class="fas fa-cart-plus"></i>
+                                    Buy Now</button>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-3 h-100 rounded">
+                            <img src="images/bikes/5.jpg" class="img-fluid card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Honda CD 110 Dream</h5>
+                                <small class="card-text"> Ex-Showroom Price, Delhi <br>
+                                    184.4 cc | 57 kmpl | 142 Kg | 17.26 bhp</small>
+                            </div>
+                            <footer class="d-flex justify-content-between">
+                                <h4>$4400</h4>
+                                <button type="button" class="btn btn-outline-danger"><i class="fas fa-cart-plus"></i>
+                                    Buy Now</button>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-3 h-100 rounded">
+                            <img src="images/bikes/6.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Ducati XDIAVEL S-73</h5>
+                                <small class="card-text"> Ex-Showroom Price, Delhi <br>
+                                    184.4 cc | 57 kmpl | 142 Kg | 17.26 bhp</small>
+                            </div>
+                            <footer class="d-flex justify-content-between">
+                                <h4>$4800</h4>
+                                <button type="button" class="btn btn-outline-danger"><i class="fas fa-cart-plus"></i>
+                                    Buy Now</button>
+                            </footer>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- clients blogs  -->
+        <!-- <section class="container my-5 py-5">
+            <h1 class="clients-blogs-text">Our clients Bolgs </h1>
+            <div class="w-75 h-75 mx-auto py-5">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators ">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/clints/1.jpg" class="d-block img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/clints/2.jpg" class="d-block img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/clints/2021-Honda-CB1000R6.jpg" class="d-block img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/clints/3.jpg" class="d-block  img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/clints/5.jpg" class="d-block img-fluid" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section> -->
+        <!-- feedback -->
+        <section class="m-5">
+            <div class="container  d-flex justify-content-center align-items-center"
+                style="height: 300px; background-color: #fceae8; border-radius: 10px;">
+                <div>
+                    <h1>LET'S STAY IN TOUCH</h1>
+                    <p>Get updates on sales, specials and more</p>
+                    <input class="form-control type=" text" placeholder="Enter Your Email"> <br>
+                    <input class="form-control type=" text" placeholder="Give us your feedback">
+                    <br>
+                    <div class="btn btn-warning">Submit</div>
+                </div>
+            </div>
+        </section>
+        <!-- happy clients says -->
+        <section>
+            <div class="container my-5 py-5">
+                <h1 class="clients-text">
+                    <span class="fw-bolder">Happy</span>
+                    <span class="fw-bolder claints-says-text">
+                        Clients Says
+                    </span>
+                </h1>
+                <div class="py-5">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card h-100 clients-cards">
+                                <div class="clients-img mx-auto">
+                                    <img src="images/user/user-1_149x149.png" class="img-fluid card-img-top" alt="...">
+                                </div>
+                                <div class="card-body clients-text mt-3">
+
+                                    <p class="card-text">Slate helps you see how <br>
+                                        many more days you need <br>
+                                        to work to reach your financial <br>
+                                        goal for the month and year.</p>
+                                    <p>
+                                        <i class="rating-star fas fa-star"></i>
+                                        <i class="rating-star fas fa-star"></i>
+                                        <i class="rating-star fas fa-star"></i>
+                                        <i class="rating-star fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </p>
+                                    <p class="text-primary">Regina Miles</p>
+                                    <p class="fw-bold">Banker</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 clients-cards">
+                                <div class="clients-img mx-auto">
+                                    <img src="images/user-2.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body clients-text mt-3">
+
+                                    <p class="card-text">Slate helps you see how <br>
+                                        many more days you need <br>
+                                        to work to reach your financial <br>
+                                        goal for the month and year.</p>
+                                    <p>
+                                        <i class="rating-star fas fa-star"></i>
+                                        <i class="rating-star fas fa-star"></i>
+                                        <i class="rating-star fas fa-star"></i>
+                                        <i class="rating-star fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </p>
+                                    <p class="text-primary">Regina Miles</p>
+                                    <p class="fw-bold">Banker</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 clients-cards">
+                                <div class="clients-img mx-auto">
+                                    <img src="images/user/user-3.png" class=" card-img-top" alt="...">
+                                </div>
+
+                                <div class="card-body clients-text mt-3">
+
+                                    <p class="card-text">Slate helps you see how <br>
+                                        many more days you need <br>
+                                        to work to reach your financial <br>
+                                        goal for the month and year.</p>
+                                    <p>
+                                        <i class="rating-star fas fa-star"></i>
+                                        <i class="rating-star fas fa-star"></i>
+                                        <i class="rating-star fas fa-star"></i>
+                                        <i class="rating-star fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </p>
+                                    <p class="text-primary">Regina Miles</p>
+                                    <p class="fw-bold">Banker</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------------------------------------------
+                                Frequently Asked Questions section  
+                            ----------------------------------------------->
+        <section>
+            <div class="container my-5">
+                <h1 class="frequently-text my-5 py-5">
+                    <span class="fw-bolder">Frequently Asked</span> <span class="question-text">Questions</span>
+                </h1>
+                <div class="row gx-5 my-5">
+                    <div class="col-lg-6 col-12 ">
+                        <img src="images/faq.png" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-6 col-12 p-5">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        What are the most important things I should
+                                        know about riding a bike?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <small class="answer-text">
+                                            Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                            signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                            your bike. This will help you be a more focused and legally compliant bike
+                                            rider.
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        How can I tell if my helmet is old and I need a
+                                        new one?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <small class="answer-text">
+                                            Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                            signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                            your bike. This will help you be a more focused and legally compliant bike
+                                            rider.
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        My bike has been in storage is it safe to ride?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <small class="answer-text">
+                                            Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                            signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                            your bike. This will help you be a more focused and legally compliant bike
+                                            rider.
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        What rules should I follow when riding my bike?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <small class="answer-text">
+                                            Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                            signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                            your bike. This will help you be a more focused and legally compliant bike
+                                            rider.
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+
+
+    <!-- bootstrap js script  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

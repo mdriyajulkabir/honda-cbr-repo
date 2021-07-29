@@ -1,0 +1,118 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*************
+ header section 
+ ***************/
+header{
+    background-color: #264653;
+}
+.header-section{
+    padding-top: 96px;
+    padding-bottom: 96px;
+    padding-left: 156px;
+    padding-right: 183px;
+}
+.header-text{
+    color: #FFFFFF;
+}
+.first-text{
+    font-size: 14px;
+    font-weight: 300;
+}
+.second-text{
+    font-size: 48px;
+    font-weight: 600;
+}
+.third-text{
+    color: #E0E0E0;
+    font-size: 16px;
+    font-weight: 300;
+}
+.purchase-btn{
+    background-color: #E76F51;
+}
+/***********
+Fetured Bikes 
+*************/
+
+.fetured-bike-text{
+    text-align: center;
+}
+.fetured-text-first{
+    font-size: 48px;
+    font-weight: 600;
+}
+.fetured-text-second{
+    color: #E76F51;
+    font-size: 14px;
+    font-weight: 600;
+}
+.filter-img{
+    filter: grayscale(100%);
+}
+/* *************
+                latest news 
+    *************/
+.latest-text{
+    text-align: center;
+    font-weight: 600;
+}
+/* more produts */
+.more-products-text{
+    text-align: center;
+    font-weight: 900;
+    color: #fc3200e8;
+}
+/* clints blogs */
+.clients-blogs-text{
+    text-align: center;
+    font-weight: 900;
+    color: rgb(245, 41, 201);
+}
+
+/* happy clients says */
+.clients-cards{
+    padding: 40px 35px;
+}
+.clients-img{
+    height: 149px;
+    width: 149px;
+}
+.clients-text{
+    text-align: center;
+}
+.claints-says-text{
+    color: #E76F51;
+}
+.rating-star{
+    color: #E77C40;
+}
+.far{
+    color: #E77C40;
+}
+/********** 
+        Frequently Asked Questions section 
+        **************************/
+.answer-text{
+    color: #7E848C;
+}
+.frequently-text{
+    text-align: center;
+}
+.question-text{
+    color: #E76F51;
+}
+
+/* responsive */
+@media screen and (max-width: 576px) {
+    .header-section{
+        padding-top: 40px;
+        padding-bottom: 25px;
+        padding-right: 20px;
+        padding-left: 15px;
+    }
+    .header-bike-info{
+        padding-left: 20px;
+    }
+}
